@@ -1,0 +1,16 @@
+export const KEY_SEQUENCES = {
+  ARROW_UP: '\x1b[A',
+  ARROW_DOWN: '\x1b[B',
+  ARROW_RIGHT: '\x1b[C',
+  ARROW_LEFT: '\x1b[D',
+  TAB: '\t',
+  ESC: '\x1b',
+  ENTER: '\r',
+  BACKSPACE: '\x7f',
+  CTRL_C: '\x03',
+  CTRL_D: '\x04',
+  CTRL_L: '\x0c',
+  CTRL_U: '\x15',
+  CTRL_A: '\x01',
+  CTRL_E: '\x05',
+} as const

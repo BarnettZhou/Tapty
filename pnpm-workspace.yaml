@@ -1,0 +1,8 @@
+packages:
+  - packages/*
+allowBuilds:
+  esbuild: set this to true or false
+  node-pty: set this to true or false
+onlyBuiltDependencies:
+  - esbuild
+  - node-pty
